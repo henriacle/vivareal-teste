@@ -1,9 +1,32 @@
 @import '_variables';
-
 menu {
     background-color: $twilight-blue;
     color: $pure-white;
     float: left;
-    height: 100%;
+    height: calc(100vh - 60px);
     width: 107px;
+    img {
+        display: block;
+        margin: auto;
+    }
+    li {
+        border-radius: 5%;
+        margin: 10px 10px;
+        padding: 10px 0;
+        border: none;
+        transition: all .2s ease-in-out;
+        span {
+            width: 100%;
+            font-size: 14px;
+            clear: both;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        &:hover {
+            background-color: $azure;
+            cursor: pointer;
+        }
+    }
 }

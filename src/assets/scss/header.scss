@@ -14,8 +14,19 @@ header {
 }
 
 .logo {
-    display: inline-block;
-    height: 60px;
-    width: 107px;
-    vertical-align: middle;
+  display: inline-block;
+  background-color: $azure;
+  height: 60px;
+  width: 107px;
+  vertical-align: middle;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
 }
