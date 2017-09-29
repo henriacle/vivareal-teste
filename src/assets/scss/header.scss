@@ -1,0 +1,21 @@
+@import '_variables';
+
+header {
+    background-color: $water-blue;
+    color: $pure-white;
+    line-height: 60px;
+    height: 60px;
+    width: 100%;
+
+    h1 {
+        display: inline-block;
+        text-transform: uppercase;
+    }
+}
+
+.logo {
+    display: inline-block;
+    height: 60px;
+    width: 107px;
+    vertical-align: middle;
+}
